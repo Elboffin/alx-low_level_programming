@@ -1,14 +1,9 @@
 #include <stdio.h>
 
 #include <unistd.h>
+
 /*
- *
  * main - print quote
- *
- *
- * Description: prints Dora's quote
- *
- *
  *
  * Return: Always 1 (Success)
  *
