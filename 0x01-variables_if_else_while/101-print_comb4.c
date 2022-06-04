@@ -18,7 +18,7 @@ int e = 0;
 while (e < 10)
 {
 d = 0;
-while (d < i 10)
+while (d < 10)
 {
 c = 0;
 while (c < 10)
