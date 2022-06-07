@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include"main.h"
 
 /*
  * main - program entry point
@@ -8,10 +8,11 @@
 
 int main (void)
 {
- char l = "task"; 
+ char letter[5] = "task"; 
  int i = 0;
- for (; i < 4; i++)
-{ _putchar(l[i]);
+ for (i =0 ; i < 4; i++)
+{
+_putchar(letter[i]);
 }
 _putchar('\n');
 return (0);
