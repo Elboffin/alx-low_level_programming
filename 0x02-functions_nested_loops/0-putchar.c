@@ -3,17 +3,18 @@
 /*
  * main - program entry point
  *
- *Return 0 (success)
+ * 
+ *
+ * Return 0 (success)
+ *
  */
 
-int main (void)
+int main(void)
 {
- char letter[5] = "task"; 
- int i = 0;
- for (i =0 ; i < 4; i++)
-{
-_putchar(letter[i]);
-}
+char c ='1';
+for (c ='1'; c <= '9'; c++)
+
+_putchar(c);
 _putchar('\n');
 return (0);
 }
