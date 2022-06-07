@@ -1,13 +1,15 @@
 #include"main.h"
+#include<stdio.h>
 
 /**
- * main - program entry point
+ * main - description: print _putchar
  *
+ * Description: print _putchar
  *
- *
- * Return 0 (success)
+ * Return: 0 success
  *
  */
+
 int main(void)
 {
 char c[9] = "_putchar";
