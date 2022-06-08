@@ -2,11 +2,12 @@
 #include<stdlib.h>
 
 /**
- * main -check the code
+ * print_last_digit - prints the last digit of a number*
  *
- *Return: Always 0.
+ *  @a: a is an integer
+ * Return: Always 0,
  */
- 
+
 int print_last_digit(int a)
 {
 int last_digit;
