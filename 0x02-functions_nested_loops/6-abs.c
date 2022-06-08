@@ -10,6 +10,16 @@
 
 int _abs(int a)
 {
-int n = abs(a);
-return (n);
+if (a > 0)
+{
+return (a);
+}
+else if (a < 0)
+{
+return (-a);
+}
+else
+{
+return (a);
+}
 }
