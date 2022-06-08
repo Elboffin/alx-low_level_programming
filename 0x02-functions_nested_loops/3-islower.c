@@ -1,5 +1,4 @@
-
-include "main.h"
+#include "main.h"
 
 
 /**
@@ -11,7 +10,7 @@ include "main.h"
 
 int _islower(int c)
 {
-if (c >= 'a' && c <= 'z')
+if(c >= 'a' && c <= 'z')
 {
 return (1);
 }
