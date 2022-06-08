@@ -8,17 +8,18 @@
  */
 
 void print_alphabet_x10(void)
-{int round = 0;
-char alp = 'a';
-while (round <= 10)
 {
-alp ='a';
-while (alp <= 'z');
+int i = 0;
+int j;
+while (i <= 10)
 {
-_putchar(alp);
-alp++;
+j = 97;
+while (j <= 122)
+{
+_putchar(j);
+j++;
 }
 _putchar('\n');
-round++;
+i++;
 }
 }
