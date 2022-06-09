@@ -13,16 +13,15 @@ b = 0;
 c = 0;
 d = 1;
 while (b < 4000000)
-if (b % 2 == 0)
 {
 b = c + d;
-if (b == 0)
+if (b % 2 == 0)
 {
 a += b;
 }
 c = d;
 d = b;
 }
-printf("%li\n", a);
+printf("%ld\n", a);
 return (0);
 }
